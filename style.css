@@ -1,3 +1,40 @@
-h1{
-    color: rgba(162, 0, 255, 0.941);
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    padding: 40px;
+}
+
+#portfolio .project {
+    margin-bottom: 30px;
+}
+
+#portfolio img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
 }
