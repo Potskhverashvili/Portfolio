@@ -1,40 +1,97 @@
+/* General Styles */
 body {
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
+    line-height: 1.6; /* Improved readability */
+    color: #333;
 }
 
+.container {
+    max-width: 960px; /* Limit content width for better readability */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px;
+}
+
+/* Header */
 header {
     background-color: #f0f0f0;
-    padding: 20px;
+    padding: 20px 0;
     text-align: center;
 }
 
 nav ul {
     list-style: none;
+    margin: 0;
     padding: 0;
 }
 
 nav li {
     display: inline;
-    margin-right: 20px;
+    margin: 0 15px;
+}
+/* About Section */
+#about {
+    background-color: #f9f9f9;
+    padding: 60px 0;
 }
 
-section {
-    padding: 40px;
+/* Portfolio Section */
+#portfolio {
+    padding: 60px 0;
 }
 
-#portfolio .project {
+#portfolio h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.project {
+    background-color: #f9f9f9; /* Light background for the project */
+    padding: 30px;
+    border-radius: 8px; /* Rounded corners for a modern look */
+    text-align: center;  /* Center align content within the project */
+}
+
+.project img {
+    max-width: 10%; 
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.project-link {
+    display: inline-block; /* Make the link behave like a block element */
+    background-color: #007bff; /* Blue background for the button */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f0f0f0;
+    padding: 60px 0;
+}
+#contact h2 {
+    text-align: center;
+}
+#contact p{
+    text-align: center;
+}
+.contact-info {
+    text-align: center;
     margin-bottom: 30px;
 }
 
-#portfolio img {
-    max-width: 100%;
-    height: auto;
+.contact-info p {
+    margin: 10px 0;
 }
 
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: white;
+.contact-info a {
+    color: #007bff; /* Or any color you prefer */
+    text-decoration: none;
+}
+
+.contact-info i {
+    margin-right: 10px; /* Add some space between icons and text */
 }

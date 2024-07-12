@@ -1,12 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en"> 
 <head>
-    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Your Name</h1>
+        <div class="container"> </div> 
+        <h1>Gia Potskhverashvili</h1>
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
@@ -17,27 +23,42 @@
     </header>
 
     <section id="about">
-        <h2>About Me</h2>
-        <p>A brief introduction about yourself, your skills, and interests.</p>
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm Gia Potskhverashvili, a dedicated Java developer. My passion lies in crafting efficient and elegant code that solves complex problems and delivers seamless user experiences.</p>
+        </div>
     </section>
 
     <section id="portfolio">
-        <h2>My Work</h2>
-        <div class="project">
-            <h3>Project Title</h3>
-            <img src="project1.jpg" alt="Project 1">
-            <p>Project description.</p>
+        <div class="container">
+            <h2>My Work</h2>
+            <div class="project">
+                <img src="mpg-calculator.jpeg" alt="MPG Calculator Project">
+                <h3>MPG Calculator</h3>
+                <p>A Java application that calculates miles per gallon for vehicles based on user input.</p>
+                <a href="https://github.com/Potskhverashvili/MpgCalculator" target="_blank" class="project-link">View on GitHub</a>
+            </div>
         </div>
-        </section>
+    </section>
 
     <section id="contact">
-        <h2>Get in Touch</h2>
-        <form>
-            </form>
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <p>I'm always open to exciting new opportunities and collaborations. Feel free to reach out!</p>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> Email: gia.potskhverashvili@gmail.com</p>
+                <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/gia-potskhverashvili-881a05171/" target="_blank">www.linkedin.com/in/gia-potskhverashvili-881a05171</a></p>
+                <p><i class="fab fa-github"></i> GitHub: <a href="https://github.com/Potskhverashvili" target="_blank">github.com/Potskhverashvili</a></p>
+            </div>
+            <form>
+                </form>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2023 Your Name</p>
+        <div class="container">
+            <p>&copy; 2024 Gia Potskhverashvili</p>
+        </div>
     </footer>
 </body>
 </html>
